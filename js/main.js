@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "Back-end dev",
             "Ing. en redes", 
             "Pentester", 
-            "Automatizador de tareas"],
+            "Automatizador"],
         loop: true,
         typeSpeed: 100,
         backSpeed: 80,
