@@ -818,3 +818,35 @@ footer::before {
         padding: 1.2rem;
     }
 }
+
+.timeline-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.timeline-text {
+    flex: 1;
+}
+
+.timeline-animation {
+    flex-shrink: 0;
+}
+
+.timeline-animation dotlottie-wc {
+    width: 220px;
+    height: 220px;
+}
+
+@media (max-width: 768px) {
+    .timeline-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .timeline-animation dotlottie-wc {
+        width: 180px;
+        height: 180px;
+    }
+}
