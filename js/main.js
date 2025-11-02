@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     var typingEffect = new Typed(".typedText", {
         strings: [
+            "José Luis",
             "Back-end dev",
             "Ing. en redes", 
             "Pentester", 
