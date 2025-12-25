@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
         strings: [
             "José Luis",
             "Back-end dev",
-            "Ing. en redes", 
+            "Network Engineer", 
             "Pentester", 
-            "Automatizador"],
+            "Automation Engineer"],
         loop: true,
         typeSpeed: 100,
         backSpeed: 80,
