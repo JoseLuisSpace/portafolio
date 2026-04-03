@@ -81,9 +81,28 @@ body {
 .wrapper {
   max-width: var(--wrapper-width);
   margin: 0 auto;
-  padding: 6rem 1.5rem;
+  padding: 4rem 1rem;
   position: relative;
   z-index: 10;
+}
+
+@media(min-width: 768px) {
+  .wrapper {
+    padding: 6rem 1.5rem;
+  }
+}
+
+/* Lottie Responsiveness */
+.lottie-hero {
+  width: 320px;
+  max-width: 100%;
+  aspect-ratio: 1;
+}
+
+.lottie-card {
+  width: 250px;
+  max-width: 100%;
+  aspect-ratio: 1;
 }
 
 /* Background Ambient Glows & Patterns */
@@ -218,8 +237,14 @@ body {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
-  padding: 2rem;
+  padding: 1.5rem;
   transition: var(--transition);
+}
+
+@media(min-width: 768px) {
+  .glass-card {
+    padding: 2rem;
+  }
 }
 
 .glass-card:hover {
@@ -431,7 +456,8 @@ body {
   }
   .timeline-animation dotlottie-wc {
     width: 200px;
-    height: 200px;
+    max-width: 100%;
+    aspect-ratio: 1;
   }
 }
 
